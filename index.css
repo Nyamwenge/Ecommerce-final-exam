@@ -130,9 +130,6 @@ li {
     display:block;
 }
 .container > ul > li > ul > li > ul > li:hover {background-color:black; color: white !important;}
-.container > ul > li > ul > li ul li ul li {
-    
-}
 .dropdown-menu{
     
     height: fit-content;
@@ -257,7 +254,11 @@ color: rgb(255, 238, 0)!important;
 }
 #initial-price{
     text-decoration: line-through;
-}#gridbottom1 .fa-heart{
+    font-size: small;
+}#current-price{
+    font-size: small;
+}
+#gridbottom1 .fa-heart{
     padding-left:30%; width: 10%;color: #be1b21;
 }#gridbottom1{
     width: 20%;height:440px;border: 1px #ccc dotted !important;
@@ -287,4 +288,6 @@ color: rgb(255, 238, 0)!important;
     font-family: algerian;
     color: #be1b21;
     text-shadow: 1px 0px 1px black;
+}#advert{
+    max-width: 100%; padding-top: 5px; height: auto;
 }
