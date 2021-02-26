@@ -1,3 +1,5 @@
+
+ <?php include 'connection.php';?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,7 +14,9 @@
  integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
 <link rel="stylesheet" type="text/css" href="index.css">
 <script src="homepage.js"></script>
-<body width="100%"><div class="main">
+<body width="100%">
+  
+  <div class="main">
     <div class="TopMost"><img src="logo.jpg" width="60px" height="65px"> &nbsp; &nbsp;<font color="rgba 0 0 0 0" id="formatting">
       N</font> <div class="" id="formatting">
       kozi </div>&nbsp; &nbsp;
@@ -27,8 +31,7 @@
                   <a class="nav-link active" aria-current="page" href="#" id="user"><center><i class="fas fa-user-circle fa-2x"></i>
                   </center>
                    <center> <figcaption id="user-account">Account</figcaption></center></a><div class="dropdown-menu" id="account">
-                    <form class="px-4 py-3">
-                      <div class="mb-3">
+                    <form class="px-4 py-3">                      <div class="mb-3">
                         <label for="exampleDropdownFormEmail1" class="form-label">Email address</label>
                         <input type="email" class="form-control" id="exampleDropdownFormEmail1" placeholder="email@example.com">
                       </div>
@@ -44,10 +47,10 @@
                           </label>
                         </div>
                       </div>
-                      <button type="submit" class="btn btn" id="signin">Sign in</button>
+                      <button type="submit" class="btn btn" id="signin"><a href="index.html">Sign in</a></button>
                     </form>
                     <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="#" id="create-account">New around here? Sign up</a>
+                    <a class="dropdown-item" href="register.html" id="create-account">New around here? Sign up</a>
                     <a class="dropdown-item" href="#" id="create-account">Forgot password?</a>
                   </div>
                 
@@ -90,11 +93,11 @@
          <li><a class="dropdown-item" href="T.vs & Computers.html"> TVs </a></li>
          <li><a class="dropdown-item" href="T.vs & Computers.html#computers">Computers </a></li>
          <li><a class="dropdown-item" href="watches.html"> Speakers and Audio systems</a></li>
-         <li><a class="dropdown-item" href="#">Wearable Technology </a></li>
-         <li><a class="dropdown-item" href="#"> Cell Phones </a></li>
-         <li><a class="dropdown-item" href="#"> Cameras </a></li>
-         <li><a class="dropdown-item" href="#">Wi-Fi & Networking </a></li>
-         <li><a class="dropdown-item" href="#"> Batteries </a></li>
+         <li><a class="dropdown-item" href="watches.html">Wearable Technology </a></li>
+         <li><a class="dropdown-item" href="phones.html"> Cell Phones </a></li>
+         <li><a class="dropdown-item" href="cameras.html"> Cameras </a></li>
+         <li><a class="dropdown-item" href="networking.html">Wi-Fi & Networking </a></li>
+         <li><a class="dropdown-item" href="batteries.html"> Batteries & Calculators </a></li>
          <li><a class="dropdown-item" href="Appliances.html"> Other Home Appliances </a></li>
        </ul></li>
        <li class="nav-item dropdown" >
@@ -149,18 +152,18 @@ aria-describedby="btnGroupAddon">
             <p><a href="watches.html">Wearable Technology</a></p>
             </div> <div id="">
               <img src="cellphones.webp" />
-              <p>Cell Phones</p>
+              <p><a href="phones.html">Cell Phones</a></p>
               </div>
            <div id="">
             <img src="camera.webp" />
-            <p>Cameras</p>
+            <p><a href="cameras.html">Cameras</a></p>
             </div>  <div id="">
-                <img src="networking-tools.webp" />
-                <p>Wi-Fi & Networking</p>
+                <img src="networking-tools.webp"/>
+                <p><a href="networking.html">Wi-Fi & Networking</a></p>
                 </div>
                 <div id="">
                   <img src="batteries.webp" />
-                  <p>Batteries</p>
+                  <p><a href="batteries.html">Batteries & Calculators</a></p>
                   </div>
                   <div id="household">
                     <img src="household.webp" />
